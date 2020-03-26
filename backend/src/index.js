@@ -9,7 +9,7 @@ const routes = require('./routes');
 //Criando a aplicaçãp
 const app = express();
 
-app.use(cors);
+app.use(cors());
 
 //Informa que usaremos JSON para as requisições
 app.use(express.json());
